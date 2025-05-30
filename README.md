@@ -16,18 +16,19 @@ The dataset is accessed using:
 from sklearn.datasets import load_breast_cancer
 It contains 569 samples with 30 numerical features describing tumor characteristics.
 
-Steps Performed
-Load and explore the dataset
+Steps Performed:
 
-Split into training and test sets
+1.Load and explore the dataset
 
-Standardize features
+2.Split into training and test sets
 
-Use cross-validation to tune the regularization parameter (C)
+3.Standardize features
 
-Train logistic regression model using best C
+4.Use cross-validation to tune the regularization parameter (C)
 
-Evaluate model with:
+5.Train logistic regression model using best C
+
+6.Evaluate model with:
 
 Confusion matrix
 
@@ -37,7 +38,7 @@ ROC-AUC score
 
 ROC curve
 
-Visualize validation curve to check overfitting
+7.Visualize validation curve to check overfitting
 
 
 How to Run
@@ -46,14 +47,3 @@ Install dependencies:
 
 pip install numpy pandas matplotlib scikit-learn
 Run the Python script or Jupyter notebook.
-
-Key Concepts
-Binary classification
-
-Logistic regression and sigmoid function
-
-Cross-validation
-
-Regularization to prevent overfitting
-
-ROC and validation curves
