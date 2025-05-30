@@ -12,7 +12,7 @@ This project implements a binary classifier using Logistic Regression to predict
 
 The dataset is accessed using:
 
-```python
+
 from sklearn.datasets import load_breast_cancer
 It contains 569 samples with 30 numerical features describing tumor characteristics.
 
